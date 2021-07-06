@@ -9,7 +9,6 @@
       <message name="ATTITUDE"            period="0.5"/>
       <message name="ESTIMATOR"           period="0.5"/>
       <message name="DESIRED"             period="1.05"/>
-      <message name="BAT"                 period="1.1"/>
       <message name="NAVIGATION_REF"      period="9."/>
       <message name="PPRZ_MODE"           period="5."/>
       <message name="TO_ATC"              period="1."/>
