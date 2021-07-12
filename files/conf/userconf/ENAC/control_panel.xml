@@ -77,31 +77,36 @@
     <session name="WAC2019_BLG">
       <program name="GCS">
         <arg flag="-layout" constant="large_left_col.xml"/>
-        <arg flag="-b" constant="10.192.36.255:6060"/>
+        <arg flag="-b" constant="10.34.127.255:6060"/>
       </program>
       <program name="Server">
         <arg flag="-n"/>
-        <arg flag="-b" constant="10.192.36.255:6060"/>
+        <arg flag="-b" constant="10.34.127.255:6060"/>
       </program>
       <program name="Data Link">
         <arg flag="-udp"/>
         <arg flag="-udp_broadcast"/>
-        <arg flag="-b" constant="10.192.36.255:6060"/>
+        <arg flag="-b" constant="10.34.127.255:6060"/>
       </program>
       <program name="ivy2svs">
         <arg flag="-ac" constant="15"/>
         <arg flag="16"/>
-        <arg flag="-b" constant="10.192.36.255:6060"/>
+        <arg flag="-b" constant="10.34.127.255:6060"/>
       </program>
       <program name="Simulator">
         <arg flag="-a" constant="APINS01"/>
         <arg flag="-t" constant="nps"/>
-        <arg flag="-b" constant="10.192.36.255:6060"/>
+        <arg flag="-b" constant="10.34.127.255:6060"/>
       </program>
       <program name="Simulator">
         <arg flag="-a" constant="APMED01"/>
         <arg flag="-t" constant="nps"/>
-        <arg flag="-b" constant="10.192.36.255:6060"/>
+        <arg flag="-b" constant="10.34.127.255:6060"/>
+      </program>
+      <program name="Simulator">
+        <arg flag="-a" constant="APINS02"/>
+        <arg flag="-t" constant="nps"/>
+        <arg flag="-b" constant="10.34.127.255:6060"/>
       </program>
     </session>
     <session name="WAC2019_BLG_local">
