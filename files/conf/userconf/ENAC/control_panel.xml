@@ -90,7 +90,7 @@
       </program>
       <program name="ivy2svs">
         <arg flag="-ac" constant="15"/>
-        <arg flag="16"/>
+        <arg flag="16" constant="17"/>
         <arg flag="-b" constant="10.34.127.255:6060"/>
       </program>
       <program name="Simulator">

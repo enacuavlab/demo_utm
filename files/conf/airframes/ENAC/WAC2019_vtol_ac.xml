@@ -219,13 +219,6 @@
 	    <!--<module name="gps" type="ubx_ucenter"/>-->
 
     <module name="to_atc"/>
-    <section name="TO_ATC" prefix="TO_ATC_">
-      <define name="FLIGHT"   value="424"    type="string"/> <!-- 0 to 500-->
-      <define name="CALLSIGN" value="APMED01" type="string"/> 
-      <define name="TACODE"   value="3400"   type="string"/> <!-- digits 1 to 7 -->
-      <define name="COMPANY"  value="DWN"    type="string"/> 
-      <define name="MODEL"    value="UAVB"   type="string"/>  
-    </section>
 
     <module name="tlsf"/>
     <module name="pprzlog">
@@ -333,4 +326,13 @@
     <!--</module>-->
 
   </firmware>
+  
+  <section name="TO_ATC" prefix="TO_ATC_">
+    <define name="FLIGHT"   value="424"    type="string"/> <!-- 0 to 500-->
+    <define name="CALLSIGN" value="APMED01" type="string"/> 
+    <define name="TACODE"   value="3400"   type="string"/> <!-- digits 1 to 7 -->
+    <define name="COMPANY"  value="DWN"    type="string"/> 
+    <define name="MODEL"    value="UAVB"   type="string"/>  
+  </section>
+
 </airframe>

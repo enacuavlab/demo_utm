@@ -218,13 +218,7 @@
 
     <module name="to_atc"/>                                                                           
 
-    <section name="TO_ATC" prefix="TO_ATC_">
-      <define name="FLIGHT"   value="422"    type="string"/> <!-- 0 to 500-->
-      <define name="CALLSIGN" value="APINS02"  type="string"/> 
-      <define name="TACODE"   value="3404"   type="string"/> <!-- digits 1 to 7 -->
-      <define name="COMPANY"  value="GCP"    type="string"/> 
-      <define name="MODEL"    value="UAVB"   type="string"/>  
-    </section>
+
 
     <!--<module name="gps" type="ubx_ucenter"/>-->
     <module name="tlsf"/>
@@ -333,4 +327,13 @@
     <!--</module>-->
 
   </firmware>
+  
+  <section name="TO_ATC" prefix="TO_ATC_">
+    <define name="FLIGHT"   value="422"    type="string"/> <!-- 0 to 500-->
+    <define name="CALLSIGN" value="APINS02"  type="string"/> 
+    <define name="TACODE"   value="3404"   type="string"/> <!-- digits 1 to 7 -->
+    <define name="COMPANY"  value="GCP"    type="string"/> 
+    <define name="MODEL"    value="UAVB"   type="string"/>  
+  </section>
+    
 </airframe>
