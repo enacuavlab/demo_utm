@@ -2,7 +2,7 @@
 
 <flight_plan alt="182" ground_alt="150" lat0="43.633794" lon0="1.365473" max_dist_from_home="7000" name="WAC2019_fixedwing_fpl" qfu="225" security_height="10">
   <header>
-#include "subsystems/datalink/datalink.h"
+#include "modules/datalink/datalink.h"
 </header>
   <waypoints>
     <waypoint alt="150.0" lat="43.6341724" lon="1.3661600" name="HOME"/>
