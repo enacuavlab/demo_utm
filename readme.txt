@@ -3,7 +3,11 @@ cd demo_utm
 ./restore.sh
 or
 ./backup.sh
+
 cd paparazzi
+export PAPARAZZI_SRC=$PWD
+export PAPARAZZI_HOME=$PWD
 make
-start.py
-(userconf/ENAC/conf.xml, userconf/ENAC/controlpanel.xml)
+./start.py
+(Conf: userconf/ENAC/conf_enac.xml)
+(Controlpanel: userconf/ENAC/control_panel.xml)
