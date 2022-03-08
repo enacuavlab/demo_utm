@@ -1,5 +1,7 @@
 #!/bin/bash
 
+PAPARAZZI_HOME=$PWD/paparazzi
+
 # copy all files from custom conf to paparazzi
 for f in $(find files/ -type f -printf '%P\n')
 do
