@@ -22,6 +22,7 @@ make
 
 
 ./paparazzi
+Tools/PprzGCS
 
 
 export PAPARAZZI_HOME= ..
