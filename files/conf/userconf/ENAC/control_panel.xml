@@ -95,17 +95,20 @@
       </program>
       <program name="Simulator">
         <arg flag="-a" constant="APINS01"/>
-        <arg flag="-t" constant="nps"/>
+	<arg flag="-t" constant="nps"/>
+        <arg flag="--nodisplay"/>
         <arg flag="-b" constant="10.34.127.255:6060"/>
       </program>
       <program name="Simulator">
         <arg flag="-a" constant="APMED01"/>
-        <arg flag="-t" constant="nps"/>
+	<arg flag="-t" constant="nps"/>
+        <arg flag="--nodisplay"/>
         <arg flag="-b" constant="10.34.127.255:6060"/>
       </program>
       <program name="Simulator">
         <arg flag="-a" constant="APINS02"/>
-        <arg flag="-t" constant="nps"/>
+	<arg flag="-t" constant="nps"/>
+        <arg flag="--nodisplay"/>
         <arg flag="-b" constant="10.34.127.255:6060"/>
       </program>
     </session>
@@ -126,15 +129,18 @@
       </program>
       <program name="Simulator">
         <arg flag="-a" constant="APINS01"/>
-        <arg flag="-t" constant="nps"/>
+	<arg flag="-t" constant="nps"/>
+        <arg flag="--nodisplay"/>
       </program>
       <program name="Simulator">
         <arg flag="-a" constant="APINS02"/>
-        <arg flag="-t" constant="nps"/>
+	<arg flag="-t" constant="nps"/>
+        <arg flag="--nodisplay"/>
       </program>
       <program name="Simulator">
         <arg flag="-a" constant="APMED01"/>
-        <arg flag="-t" constant="nps"/>
+	<arg flag="-t" constant="nps"/>
+        <arg flag="--nodisplay"/>
       </program>
     </session>
     <session name="WAC2020_BLG">
@@ -157,7 +163,8 @@
       </program>
       <program name="Simulator">
         <arg flag="-a" constant="PRODR23"/>
-        <arg flag="-t" constant="nps"/>
+	<arg flag="-t" constant="nps"/>
+        <arg flag="--nodisplay"/>
         <arg flag="-b" constant="10.192.36.255:6060"/>
       </program>
     </session>
@@ -177,7 +184,8 @@
       </program>
       <program name="Simulator">
         <arg flag="-a" constant="PRODR23"/>
-        <arg flag="-t" constant="nps"/>
+	<arg flag="-t" constant="nps"/>
+        <arg flag="--nodisplay"/>
       </program>
     </session>
   </section>
