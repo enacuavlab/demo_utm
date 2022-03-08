@@ -1,7 +1,5 @@
 #!/bin/bash
 
-PAPARAZZI_HOME=$PWD/paparazzi
-
 # update all files from paparazzi repo if they still exists, or delete them if they no longer exists
 for f in $(find files/ -type f -printf '%P\n')
 do

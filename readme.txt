@@ -1,8 +1,16 @@
-git clone --recurse-submodules https://github.com/enacuavlab/demo_utm.git
+git clone https://github.com/paparazzi/paparazzi.git
+cd paparazzi/
+git checkout v6.1.0_stable 
+make
+
+
+
+git clone https://github.com/enacuavlab/demo_utm.git
 cd demo_utm
+export PAPARAZZI_SRC= ...
+export PAPARAZZI_HOME= ..
 ./restore.sh
 
-cd paparazzi
 export PAPARAZZI_SRC=$PWD
 export PAPARAZZI_HOME=$PWD
 make
