@@ -1,0 +1,71 @@
+<control_panel name="paparazzi control panel">
+  <section name="programs"/>
+  <section name="sessions">
+    <session name="WAC2022_BLG">
+      <program name="PprzGCS">
+        <arg flag="-b" constant="10.34.127.255:6060"/>
+      </program>
+      <program name="Server">
+        <arg flag="-n"/>
+        <arg flag="-b" constant="10.34.127.255:6060"/>
+      </program>
+      <program name="Data Link">
+        <arg flag="-udp"/>
+        <arg flag="-udp_broadcast"/>
+        <arg flag="-b" constant="10.34.127.255:6060"/>
+      </program>
+      <program name="ivy2svs">
+        <arg flag="-ac" constant="15"/>
+        <arg flag="16" constant="17"/>
+        <arg flag="-b" constant="10.34.127.255:6060"/>
+      </program>
+      <program name="Simulator">
+        <arg flag="-a" constant="APINS01"/>
+	<arg flag="-t" constant="nps"/>
+        <arg flag="--nodisplay"/>
+        <arg flag="-b" constant="10.34.127.255:6060"/>
+      </program>
+      <program name="Simulator">
+        <arg flag="-a" constant="APMED01"/>
+	<arg flag="-t" constant="nps"/>
+        <arg flag="--nodisplay"/>
+        <arg flag="-b" constant="10.34.127.255:6060"/>
+      </program>
+      <program name="Simulator">
+        <arg flag="-a" constant="APINS02"/>
+	<arg flag="-t" constant="nps"/>
+        <arg flag="--nodisplay"/>
+        <arg flag="-b" constant="10.34.127.255:6060"/>
+      </program>
+    </session>
+    <session name="WAC2022_BLG_local">
+      <program name="PprzGCS"/>
+      <program name="Server">
+        <arg flag="-n"/>
+      </program>
+      <program name="Data Link">
+        <arg flag="-udp"/>
+        <arg flag="-udp_broadcast"/>
+      </program>
+      <program name="ivy2svs">
+        <arg flag="-ac" constant="15"/>
+        <arg flag="16" constant="17"/>
+      </program>
+      <program name="Simulator">
+        <arg flag="-a" constant="APINS01"/>
+	<arg flag="-t" constant="nps"/>
+        <arg flag="--nodisplay"/>
+      </program>
+      <program name="Simulator">
+        <arg flag="-a" constant="APINS02"/>
+	<arg flag="-t" constant="nps"/>
+        <arg flag="--nodisplay"/>
+      </program>
+      <program name="Simulator">
+        <arg flag="-a" constant="APMED01"/>
+	<arg flag="-t" constant="nps"/>
+        <arg flag="--nodisplay"/>
+      </program>
+    </session>
+  </section>
+</control_panel>
